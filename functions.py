@@ -4,6 +4,7 @@ from typing import Any
 
 from myclass import Unique
 
+
 def gen_random(num_count: int, begin: int, end: int) -> Generator[int, None, None]:
 
     for _ in range(num_count):

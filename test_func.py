@@ -1,6 +1,8 @@
-from myclass import Unique
 from unittest.mock import patch
+
 from functions import f1, f2, f3, gen_random
+from myclass import Unique
+
 
 def test_unique_removes_duplicates():
     assert list(Unique([1, 2, 1, 3, 2])) == [1, 2, 3]
